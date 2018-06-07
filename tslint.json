@@ -90,7 +90,7 @@
     "radix": true,
     "semicolon": [
       true,
-      "always"
+      "never"
     ],
     "triple-equals": [
       true,
@@ -115,6 +115,10 @@
       "check-operator",
       "check-separator",
       "check-type"
+    ],
+    "max-line-length": [
+      true,
+      120
     ],
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
